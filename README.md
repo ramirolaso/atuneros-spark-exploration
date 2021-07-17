@@ -1,6 +1,6 @@
 # atuneros-spark-exploration
 
-## Spark + Jupyter setup
+## Spark (3.0.0) + Jupyter setup
 
 Based on this article https://towardsdatascience.com/apache-spark-cluster-on-docker-ft-a-juyterlab-interface-418383c95445
 
@@ -15,6 +15,10 @@ docker-compose up -d
 
 ```url
     http://127.0.0.1:8080
+```
+### Jupyter Lab Interface
+```url
+http://localhost:8888/lab?
 ```
 
 ### Build your session
